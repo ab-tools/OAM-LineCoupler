@@ -1,5 +1,6 @@
 #include "LineCouplerModule.h"
 #include "Logic.h"
+#include "FunctionBlocksModule.h"
 #include "FileTransferModule.h"
 
 void setup()
@@ -8,6 +9,7 @@ void setup()
     openknx.init(firmwareRevision);
     openknx.addModule(1, openknxLogic);
     openknx.addModule(2, openknxLineCouplerModule);
+    openknx.addModule(8, openknxFunctionBlocksModule);
     openknx.addModule(9, openknxFileTransferModule);
     openknx.setup();
 }

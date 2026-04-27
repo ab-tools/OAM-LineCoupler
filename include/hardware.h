@@ -1,5 +1,3 @@
-#include <OpenKNXHardware.h>
-
 #ifdef BOARD_AB_SMARTHOUSE_LCP
     #define DEVICE_ID "AB-LCP"
     #define HARDWARE_NAME "AB-LCP"

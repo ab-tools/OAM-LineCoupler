@@ -16,6 +16,9 @@
 			"path": "../OFM-FileTransferModule"
 		},
 		{
+			"path": "../OFM-FunctionBlocks"
+		},
+		{
 			"path": "../knx"
 		}
 	],
