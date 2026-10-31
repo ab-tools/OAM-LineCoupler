@@ -19,6 +19,9 @@
 			"path": "../OFM-FunctionBlocks"
 		},
 		{
+			"path": "../OGM-HardwareConfig"
+		},
+		{
 			"path": "../knx"
 		}
 	],
