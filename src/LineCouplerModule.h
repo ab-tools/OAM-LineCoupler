@@ -28,9 +28,6 @@ class LineCouplerModule : public OpenKNX::Module
     uint32_t forwardGaSwitchLastTrigger = 0;
     bool forwardPa = false;
     uint32_t forwardPaSwitchLastTrigger = 0;
-
-    const uint16_t _gpioPins[OPENKNX_BI_GPIO_COUNT] = {OPENKNX_BI_GPIO_PINS};
-    const uint16_t _statusPins[OPENKNX_BI_GPIO_COUNT] = {OPENKNX_BI_STATUS_PINS};
 };
 
 extern LineCouplerModule openknxLineCouplerModule;
